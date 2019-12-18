@@ -1,0 +1,127 @@
+/*博客样式*/
+
+/*公用样式*/
+* {
+    font-family: "PingFang SC", "Microsoft YaHei";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/*左样式开始*/
+
+/*总体页面布局*/
+.left {
+    width: 20%;
+    height: 100%;
+    background-color: #4c4d4c;
+    position: fixed;
+    float: left;
+}
+/*总体页面布局结束*/
+/*头像样式*/
+.image-head{
+    height: 130px;
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.image-head>img{
+    max-height: 100%;
+}
+/*头像样式结束*/
+/*文字公用样式*/
+.blog-info,
+.blog-name{
+    color: white;
+    text-align: center;
+}
+
+/*博客名称样式开始*/
+.blog-name{
+    font-size: 24px;
+    font-weight: bolder;
+}
+/*博客名称样式结束*/
+
+/*博客简介样式开始*/
+.blog-info{
+    border: 2px solid white;
+    margin: 20px;
+    padding: 5px;
+
+}
+/*博客简介样式结束*/
+
+.blog-link,
+.blog-tags{
+    text-align: center;
+    margin-top: 30px;
+}
+.blog-tags a,
+.blog-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.blog-tags a:before{
+    content: "#";
+}
+/*左样式结束*/
+
+
+/*右样式开始*/
+/*右边整体布局*/
+.right {
+    width: 80%;
+    height: 800px;
+    background-color: #eeeded;
+    float: right;
+}
+
+/*文章列表样式*/
+.article-list{
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+/*文章总体样式*/
+.article{
+    background-color: white;
+    margin-top: 20px;
+}
+/*文章标题样式*/
+.article-title{
+    border-left: 3px solid red;
+}
+
+.article-title h1{
+    display: inline-block;
+    margin: 15px;
+}
+
+.article-title span{
+    float: right;
+    margin: 15px;
+}
+
+/*文章内容样式*/
+.article-content{
+    margin-top: 10px;
+    margin-left: 18px;
+    text-align: left;
+    text-indent: 32px;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+}
+/*文章标签样式*/
+.article-tag{
+    margin-left: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*右样式结束*/
